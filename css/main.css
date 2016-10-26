@@ -1,0 +1,140 @@
+
+header{background-color: rgba(0,0,0,0.4);}
+h1{padding: 12px; border-top: 2px solid white;border-bottom: 2px solid white;}
+.article h1{border: none;}
+#nav{background-color: transparent;height: 50px;}
+.article #banner{height: 300px;}
+.article #banner .inner{
+	top:30px;
+}
+#banner{height: 700px;}
+#nav ul{list-style: none;margin:0;float: right;}
+#nav ul li,#nav .logo{
+	display: inline-block;line-height: 50px;margin-right: 20px;
+}
+#nav ul li a,.logo a{
+	line-height: 50px;text-decoration: none;display: inline-block;height: inherit;color: white;
+}
+a.active{border-bottom: 2px solid white;}
+.logo{float: left;padding-left: 10px;}
+.logo{font-size: 20px;font-weight: 700;letter-spacing: 1px;}
+#banner .inner{max-width: 300px;text-align: center;margin:0 auto;position: relative;top: 160px;color: white;}
+#banner .inner h1{margin:0;}
+button{border:none;background-color: #333;color: #eee;padding: 14px 40px;color: white;}
+#banner button{padding: 14px 60px;}
+
+.sub-heading{margin:30px 0;line-height: 30px;font-size: 18px;}
+h2{font-size: 30px;}
+.green-section{
+	text-align: center;background-color: #089d80;color: white;
+	padding: 100px 0;
+}
+.wrapper{max-width: 1080px;margin:0 auto;}
+.hr{width: 100%;margin:0 auto;height: 2px;margin:20px auto;}
+.green-section .hr{background-color: #078490;width: 60%;}
+.icon-group{margin-top: 20px;}
+.icon-group .icon{height: 80px;width: 80px;display: inline-block;background-color: #0d6f7c;transform: rotate(45deg);margin:20px;}
+
+.gray-section{
+	background-color: #252f34;color: white;
+}
+.gray-section .img-section{
+	width: 45%;
+
+}
+.article-preview{font-size: 0}/*让两个部分无缝链接，应为字体大小会影响行高*/
+.img-section img{width: 100%;}/*让图片宽度与父元素看齐*/
+.gray-section .text-section{width: 55%;}
+.text-section{position: relative;top: 68px;left: 50px;}
+.text-section h2{margin-bottom: 20px;}
+
+.text-section > *{max-width: 90%;}
+.text-section .sub-heading{font-size: 22px;margin-top: 0;}
+.article-preview > div{
+	float: left;
+}
+.article-preview:nth-child(odd){background-color: rgba(255,255,255,0.05);}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;}
+
+.purple-section{background-color: #3f3965;color: #fff;padding: 80px;}
+.purple-section .heading-wrapper{text-align: center;}
+.purple-section .hr{width: 60%;background:#373259; }
+.card{float: left;width: 50%;min-height: 300px;padding: 50px;
+	-webkit-box-sizing: border-box;/*border的宽度在内*/
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h3{font-size: 24px;}
+p{font-size: 18px;letter-spacing: 1px;}
+.card:first-child{background-color:rgba(0,0,0,0.04);}
+.card:nth-child(2){background-color:rgba(0,0,0,0.08);}
+.card:nth-child(3){background-color:rgba(0,0,0,0.12);}
+.card:nth-child(4){background-color:rgba(0,0,0,0.16);}
+.card:nth-child(5){background-color:rgba(0,0,0,0.20);}
+.card:nth-child(6){background-color:rgba(0,0,0,0.24);}
+.card:nth-child(7){background-color:rgba(0,0,0,0.28);}
+.card:nth-child(8){background-color: rgba(0,0,0,0.32);}
+
+footer{background-color: #333;color: white;min-height: 200px;text-align: center;}
+ul{margin:0;}
+ul.share-group{display: block;width: 1080px;margin:0 auto;padding: 50px;}
+.share-group li{display: inline-block;padding: 10px;}
+.copy{padding-bottom: 20px;}
+
+.main-wrapper{background: #444 url(../img/足球2.jpg) no-repeat; background-attachment: fixed;/*将背景图片固定*/
+background-size: cover;background-position: center;overflow: hidden;}
+
+.mask{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.3);
+}
+#sidebar{width: 300px;background: #333;position: fixed;top: 0;right: -300px;bottom: 0;padding: 20px 0;transition: all 0.5s;}
+#sidebar ul{list-style: none;padding: 0;margin:0;}
+#sidebar ul a{
+	padding: 10px 30px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	width: 100%;
+}
+#sidebar ul label{
+	padding: 10px 30px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	width: 100%;
+}
+#sidebar ul label input{position: absolute;right: 10px;}
+#sidebar ul label:hover{background: #444;}
+#sidebar ul a:hover{background: #444;}
+#button-ok{border-radius: 5px;border: 1px white solid;}
+#button-all{border-radius: 5px;border: 1px white solid;margin-left: 20px;}
+.back-to-top{position: fixed;bottom: 30px;right: 30px;border:1px solid #999;}
+
+.article{line-height: 2;padding:0 0px 10px;}
+.content_wrapper{
+	width: 1080px;
+	margin:0 auto;
+
+}
+.article .content{
+	background: #fefefe;
+}
+.article_info{font-size: 14px;color: #888;padding: 15px 0;}
+
+.photo_rsort{
+	position: absolute;
+	left: 50px;
+	top: 70px;
+	-webkit-transform:scale(0.4);
+}
